@@ -18,3 +18,21 @@
 ### Coding
 
 - **Variables** starts with a lowercase letter and have a max of 3 words to describe them.
+
+### Props
+Always use camelCase for prop names, or PascalCase if the prop value is a React component.
+``` tsx
+// bad
+<Home
+  UserName="hello"
+  phone_number={12345678}
+/>
+
+// good
+<Home
+  userName="hello"  //props string
+  phoneNumber={12345678}  //prop number
+  Component={SomeComponent} //prop component
+/>
+```
+

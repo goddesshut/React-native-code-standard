@@ -1,5 +1,8 @@
 - [Home](/)
 - **Style guides**
   - [Naming Concentions](style-guides/namingConventions.md)
+  - [Typescript Style guide](style-guides/typescript-style-guide.md)
 - **Components**
-  - [Component Types](components/component-types.md)
+  - [Functional components](components/function-component.md)
+  - [Layout components](components/layout-components.md)
+  - [Hooks](components/hook.md)
