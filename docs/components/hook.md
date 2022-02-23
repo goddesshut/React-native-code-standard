@@ -1,6 +1,6 @@
 # Hooks
 
-Hooks are the new thing in React and are arriving with React 16.8. They aim to provide more functionalities to functional components and they also provide a way to encapsulate some logic outside the components to be able to reuse them
+Hooks are the new thing in React and are arriving with React 16.8. They aim to provide more functionalities to functional components and they also provide a way to encapsulate some logic outside the components to be able to reuse them.
 
 ``` tsx
 enum HomeTypes {
