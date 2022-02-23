@@ -1,5 +1,5 @@
 - [Home](/)
+- **Style guides**
+  - [Naming Concentions](style-guides/namingConventions.md)
 - **Components**
   - [Component Types](components/component-types.md)
-- **Style guides**
-  - [Before starting](style-guides/namingConventions.md)
