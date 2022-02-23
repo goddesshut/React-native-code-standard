@@ -1,0 +1,1 @@
+React Native code standard

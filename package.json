@@ -1,0 +1,14 @@
+{
+    "name": "react-native-code-standard",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/goddesshut/react-native-code-standard",
+    "author": "Goddesshut",
+    "license": "MIT",
+    "scripts": {
+      "start": "docsify serve docs"
+    },
+    "devDependencies": {
+      "docsify": "^4.9.1"
+    }
+  }
