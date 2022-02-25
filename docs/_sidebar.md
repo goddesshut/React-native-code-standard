@@ -1,4 +1,6 @@
 - [Home](/)
+- **Project Structure**
+  - [File Structure](structure/files-structure.md)
 - **Style guides**
   - [Naming Concentions](style-guides/namingConventions.md)
   - [Typescript Style guide](style-guides/typescript-style-guide.md)
@@ -6,3 +8,4 @@
   - [Functional components](components/function-component.md)
   - [Layout components](components/layout-components.md)
   - [Hooks](components/hook.md)
+- **Style Sheet**

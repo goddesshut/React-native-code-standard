@@ -4,7 +4,7 @@ Hooks are the new thing in React and are arriving with React 16.8. They aim to p
 
 ``` tsx
 enum HomeTypes {
-    FETCH_HOME = "fetchHomeService"
+    FETCH_HOME = "fetchService"
 }
 
 const useHome = () => {
@@ -13,7 +13,6 @@ const useHome = () => {
 
 const Parent = () => {
   const home = useHome(); // this is a reusable hook
-
   return <Children data={useHome.data} />;
 };
 ```

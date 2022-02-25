@@ -1,7 +1,6 @@
 # Functional components
 
 They are the simplest way to define components:
-
 ```tsx
 import React, { FunctionComponent } from 'react'
 export const Home: FunctionComponent<Props> = ({ route, navigation }) => {
@@ -41,3 +40,22 @@ isThree !== isThree; // false
 ```
 
 And it's also more readable and provide a useful name for further use ;)
+
+
+### Higher Order Component (HOC)
+A higher order componentis a function that takes a componet and return a new component.
+Let's think of it just like an Higher Order Function, but with component. The idea is to call a function by passing it a Component definition as argument. Imagine the following logger
+```tsx
+export const Home: FunctionComponent<Props> = ({ route, navigation }) => {
+    const Children = ({ positionX, positionY }) => // some implementation details
+
+    const ScrollableChildren = withScroll(Children);
+
+    return (
+        <ScrollHandler>
+            <ScrollableChildren /> {/* the children owns the positionX and positionY ! */}
+        </ScrollHandler>
+    )
+}
+```
+As you may have seen, the idea is to put a wrapper around the component to simulate some enhancements over it. The withLogger function can now be called at multiple places and is a great way to make code reusable.

@@ -8,7 +8,7 @@
 
 - Every folder under "screens" & "component" starts with an uppercase letter and have a max of 3 words to describe it.
 >  Example
-> - HomeScreen.tsx, SummaryCard.tsx
+> - HomeScreen.tsx, SummaryCard.tsx, Home, Watchlist, CustomButton
 
 - Every file in the project starts with a lowercase letter. 
 >  Example
@@ -16,8 +16,16 @@
 
 
 ### Coding
-
 - **Variables** starts with a lowercase letter and have a max of 3 words to describe them.
+- **Constants** starts with a lowercase letter and have a max of 3 words to describe them.
+
+**Function**
+- Private function will start with a lowercase letter as normal just put private to define type of funtion.
+- Public function will start with a lowercase letter.
+``` tsx
+private goToScreen = () => {}; // Private funtion
+goToScreen = () =>  {} // Public function
+```
 
 ### Props
 Always use camelCase for prop names, or PascalCase if the prop value is a React component.
